@@ -5,6 +5,13 @@
     "keywords": ["messaging", "queue", "amqp", "rabbitmq"],
     "homepage": "https://enqueue.forma-pro.com/",
     "license": "MIT",
+    "repositories": {
+        "enqueue/enqueue": {
+            "type": "github",
+            "url": "https://github.com/darkanakin41/enqueue.git",
+            "name": "enqueue/enqueue"
+        }
+    },
     "require": {
         "php": "^7.4|^8.0",
         "symfony/framework-bundle": "^5.4|^6.0|^7.0",
